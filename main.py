@@ -1,11 +1,22 @@
-# Exercise 4:
+# Exercise 5:
+
+# Exercise 4: Build counter
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+counter = 0
+for number in my_list:
+  counter = counter + number
+
+print(counter)
+
 
 # Exercise 3: Logical Operators
 '''
 1. Check if magician AND expert: "you are a master magician"
 2. Check if magician but NOT expert: "at least you're getting there"
 3. If you're not a magician: "You need magic powers"
-'''
+
+
 is_magician = True
 is_expert = False
 
@@ -15,9 +26,11 @@ elif is_magician and not is_expert:
   print("At least you're getting there...")
 elif not is_magician:
   print("You need magic powers... )=")
+''''''
 
 
-'''
+
+
 # Exercise 2: Password Checker
 username = input('Enter your username: ') # Ask for username
 password = input('Enter your password: ') # Ask for password
@@ -28,6 +41,8 @@ password_stars = '*' * password_length
 # Read password and length to username
 print(f'{username}, your password {password_stars} is {password_length} letters long.')
 '''
+
+
 
 '''
 # Exercise 1: Type Conversion
